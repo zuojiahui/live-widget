@@ -24,9 +24,9 @@
 
 #waifu {
 	bottom: -1000px;
-	left: 0;
+	right: 25px;
 	line-height: 0;
-	margin-bottom: -10px;
+	margin-bottom: 2px;
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
@@ -68,9 +68,9 @@
 
 #waifu #live2d {
 	cursor: grab;
-	height: 300px;
+	height: 250px;
 	position: relative;
-	width: 300px;
+	width: 250px;
 }
 
 #waifu #live2d:active {
@@ -81,8 +81,8 @@
 	color: #aaa;
 	opacity: 0;
 	position: absolute;
-	right: -10px;
-	top: 70px;
+	right: 6px;
+	top: -65px;
 	transition: opacity 1s;
 }
 
@@ -91,7 +91,7 @@
 }
 
 #waifu-tool span {
-	color: #7b8c9d;
+	color: rgb(126 89 239 / 99%);
 	cursor: pointer;
 	display: block;
 	line-height: 30px;
@@ -100,7 +100,7 @@
 }
 
 #waifu-tool span:hover {
-	color: #0684bd; /* #34495e */
+	color:  rgba(239, 83, 80, 0.75); /* #34495e */
 }
 
 @keyframes shake {
